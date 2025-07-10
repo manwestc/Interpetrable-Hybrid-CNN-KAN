@@ -1,0 +1,4 @@
+pip install tintolib==1.0.4
+pip install numpy==1.26.4
+opencv-python==4.12.0.88
+mpi4py==4.1.0
