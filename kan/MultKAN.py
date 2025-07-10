@@ -160,11 +160,11 @@ class MultKAN(nn.Module):
         random.seed(seed)
 
         ### initializeing the numerical front ###
-
+        # Defining the Depth and Processing the Width Parameter
         self.act_fun = []
         self.depth = len(width) - 1
         
-        #print('haha1', width)
+        #Defining the Depth and Processing the Width Parameter
         for i in range(len(width)):
             #print(type(width[i]), type(width[i]) == int)
             if type(width[i]) == int or type(width[i]) == np.int64:
@@ -177,15 +177,18 @@ class MultKAN(nn.Module):
         # if mult_arity is just a scalar, we extend it to a list of lists
         # e.g, mult_arity = [[2,3],[4]] means that in the first hidden layer, 2 mult ops have arity 2 and 3, respectively;
         # in the second hidden layer, 1 mult op has arity 4.
+        # Multiplication Arity Handling
         if isinstance(mult_arity, int):
             self.mult_homo = True # when homo is True, parallelization is possible
         else:
             self.mult_homo = False # when home if False, for loop is required. 
         self.mult_arity = mult_arity
 
+        # Determining Input and Output Dimensions
         width_in = self.width_in
         width_out = self.width_out
         
+        # Choosing the Base Function
         self.base_fun_name = base_fun
         if base_fun == 'silu':
             base_fun = torch.nn.SiLU()
@@ -193,11 +196,12 @@ class MultKAN(nn.Module):
             base_fun = torch.nn.Identity()
         elif base_fun == 'zero':
             base_fun = lambda x: x*0.
-            
+        
+        # Storing Global Grid Parameters
         self.grid_eps = grid_eps
         self.grid_range = grid_range
             
-        
+        # Building the Numerical (Spline) Layers
         for l in range(self.depth):
             # splines
             if isinstance(grid, list):
@@ -214,6 +218,7 @@ class MultKAN(nn.Module):
             sp_batch = KANLayer(in_dim=width_in[l], out_dim=width_out[l+1], num=grid_l, k=k_l, noise_scale=noise_scale, scale_base_mu=scale_base_mu, scale_base_sigma=scale_base_sigma, scale_sp=1., base_fun=base_fun, grid_eps=grid_eps, grid_range=grid_range, sp_trainable=sp_trainable, sb_trainable=sb_trainable, sparse_init=sparse_init)
             self.act_fun.append(sp_batch)
 
+        # Initializing Affine Parameters
         self.node_bias = []
         self.node_scale = []
         self.subnode_bias = []
@@ -240,6 +245,7 @@ class MultKAN(nn.Module):
         self.base_fun = base_fun
 
         ### initializing the symbolic front ###
+        # Constructing the Symbolic Front 
         self.symbolic_fun = []
         for l in range(self.depth):
             sb_batch = Symbolic_KANLayer(in_dim=width_in[l], out_dim=width_out[l+1])

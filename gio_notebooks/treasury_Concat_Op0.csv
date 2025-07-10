@@ -1,0 +1,41 @@
+kan_neurons,kan_grid,lamb,_,ACC,Best_Epoch,KAN_Relevance,CNN_Relevance,KAN M.R.F.,CNN M.R.F.
+5,4,0.0001,_,0.592028021812439,38,0.9794920086860657,0.020508041605353355,"savingsDeposits: 0.65
+checkableDeposits: 0.59
+moneyStock: 0.44","tradeCurrencies: 0.49
+moneyStock: 0.41
+federalFunds: 0.37"
+5,4,0.0001,_,1.0188512802124023,6,0.9998999238014221,0.00010010838013840839,"savingsDeposits: 0.97
+checkableDeposits: 0.79
+tradeCurrencies: 0.78","moneyStock: 0.35
+federalFunds: 0.26
+3M-Rate-SecondaryMarket: 0.25"
+6,5,1e-05,_,0.24259307980537415,19,0.06979130953550339,0.9302087426185608,"checkableDeposits: 0.80
+federalFunds: 0.72
+tradeCurrencies: 0.65","loansLeases: 0.13
+Ex1: 0.02
+demandDeposits: 0.01"
+6,5,1e-05,_,0.23960164189338684,19,0.07686016708612442,0.9231398701667786,"checkableDeposits: 0.90
+loansLeases: 0.73
+tradeCurrencies: 0.72","3Y-CMaturityRate: 0.14
+demandDeposits: 0.05
+loansLeases: 0.02"
+1,5,1e-05,_,0.2644762098789215,38,0.036843299865722656,0.9631566405296326,"loansLeases: 0.38
+federalFunds: 0.34
+savingsDeposits: 0.30","3Y-CMaturityRate: 0.21
+tradeCurrencies: 0.12
+demandDeposits: 0.10"
+1,5,1e-05,_,0.4296741783618927,28,0.07485564798116684,0.925144374370575,"federalFunds: 0.47
+loansLeases: 0.36
+savingsDeposits: 0.24","3Y-CMaturityRate: 0.13
+demandDeposits: 0.05
+Ex1: 0.03"
+6,7,1e-05,_,0.2238791137933731,32,0.9460374116897583,0.05396251007914543,"moneyStock: 0.38
+tradeCurrencies: 0.30
+3Y-CMaturityRate: 0.27","tradeCurrencies: 0.41
+3Y-CMaturityRate: 0.39
+5Y-CMaturityRate: 0.38"
+6,7,1e-05,_,0.2238791137933731,32,0.9460374116897583,0.05396251007914543,"moneyStock: 0.38
+tradeCurrencies: 0.30
+3Y-CMaturityRate: 0.27","tradeCurrencies: 0.41
+3Y-CMaturityRate: 0.39
+5Y-CMaturityRate: 0.38"
