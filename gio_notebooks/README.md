@@ -34,7 +34,7 @@ gio_notebooks/
 │   └── grid_seach_methodology_v1.svg
 ├── dataset-GridSearch-SM.ipynb        # Jupyter notebooks for dataset to execute base Grid Searchs using SM synthetic method (e.g. Puma-Regression-GridSearch-IGTD.ipynb) 
 ├── dataset-Concat-SM.ipynb            # Jupyter notebooks for dataset to execute concatenation strategies Grid Searchs using SM synthetic method (e.g. Puma-Regression-Concat-IGTD.ipynb)
-├── dataset-Final-Results-SM.ipynb     # Jupyter notebooks for dataset to execute concatenation strategies Grid Searchs using SM synthetic method (e.g. Puma-Regression-Final-Results-IGTD.ipynb)
+├── dataset-Final-Results-SM.ipynb     # Jupyter notebooks for dataset to execute replication of Best configuration using SM synthetic method (e.g. Puma-Regression-Final-Results-IGTD.ipynb)
 └── README.md                      # This file
 ```
 
@@ -73,9 +73,15 @@ This repository aims to enable reproducibility and serve as a foundation for fut
 
 ### Grid Search Methodology
 
-*(SVG files render directly on GitHub. For maximum compatibility, consider using PNG in other Markdown viewers.)*
-
 ![Grid Search Methodology](images/grid_seach_methodology_v1.svg)
+
+The steps in this methodology correspond to the following notebooks:
+
+| Step(s) | Notebook File                   |
+|---------|---------------------------------|
+| 1, 2, 3 | `dataset-GridSearch-SM.ipynb`   |
+| 4       | `dataset-Concat-SM.ipynb`       |
+| 5       | `dataset-Final-Results-SM.ipynb` |
 
 ---
 
