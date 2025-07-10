@@ -3,9 +3,6 @@ __pycache__/
 docs/_build/
 docs/_static/
 docs/_templates
-gio_notebooks/figures/
-gio_notebooks/model/
-gio_notebooks/.ipynb_checkpoints/
 test
 sr
 pde

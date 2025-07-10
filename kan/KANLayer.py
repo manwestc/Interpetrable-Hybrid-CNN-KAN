@@ -90,32 +90,28 @@ class KANLayer(nn.Module):
         '''
         super(KANLayer, self).__init__()
         # size 
-        # Storing Basic Dimensions and Hyperparameters
         self.out_dim = out_dim
         self.in_dim = in_dim
         self.num = num
         self.k = k
 
-        # Constructing the Grid
         grid = torch.linspace(grid_range[0], grid_range[1], steps=num + 1)[None,:].expand(self.in_dim, num+1)
         grid = extend_grid(grid, k_extend=k)
         self.grid = torch.nn.Parameter(grid).requires_grad_(False)
-        
-        # Initializing the Spline Coefficients
         noises = (torch.rand(self.num+1, self.in_dim, self.out_dim) - 1/2) * noise_scale / num
+
         self.coef = torch.nn.Parameter(curve2coef(self.grid[:,k:-k].permute(1,0), noises, self.grid, k))
         
-        # Setting Up the Connection Mask
         if sparse_init:
             self.mask = torch.nn.Parameter(sparse_mask(in_dim, out_dim)).requires_grad_(False)
         else:
             self.mask = torch.nn.Parameter(torch.ones(in_dim, out_dim)).requires_grad_(False)
-        # Initializing the Scaling Parameters for the Base and Spline Functions
+        
         self.scale_base = torch.nn.Parameter(scale_base_mu * 1 / np.sqrt(in_dim) + \
                          scale_base_sigma * (torch.rand(in_dim, out_dim)*2-1) * 1/np.sqrt(in_dim)).requires_grad_(sb_trainable)
         self.scale_sp = torch.nn.Parameter(torch.ones(in_dim, out_dim) * scale_sp * 1 / np.sqrt(in_dim) * self.mask).requires_grad_(sp_trainable)  # make scale trainable
-        # Storing the Base Activation Function and Grid Adaptation Parameter
         self.base_fun = base_fun
+
         
         self.grid_eps = grid_eps
         
@@ -154,19 +150,17 @@ class KANLayer(nn.Module):
         >>> y, preacts, postacts, postspline = model(x)
         >>> y.shape, preacts.shape, postacts.shape, postspline.shape
         '''
-        # Input Expansion (preacts)
         batch = x.shape[0]
         preacts = x[:,None,:].clone().expand(batch, self.out_dim, self.in_dim)
-        # Base Function Evaluation (base)
+            
         base = self.base_fun(x) # (batch, in_dim)
-        #Spline Evaluation (y and postspline)
         y = coef2curve(x_eval=x, grid=self.grid, coef=self.coef, k=self.k)
         
         postspline = y.clone().permute(0,2,1)
-        # Combining Base and Spline Contributions
+            
         y = self.scale_base[None,:,:] * base[:,:,None] + self.scale_sp[None,:,:] * y
         y = self.mask[None,:,:] * y
-        # Post-Activation Output
+        
         postacts = y.clone().permute(0,2,1)
             
         y = torch.sum(y, dim=1)
