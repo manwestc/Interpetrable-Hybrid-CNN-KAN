@@ -59,15 +59,15 @@ This repository aims to enable reproducibility and serve as a foundation for fut
 
 ## 🖼 Methodology Diagrams
 
-### CNN Blocks Architecture
-
-![CNN Blocks](images/cnn_blocks.png)
-
----
-
 ### Full Hybrid Model Methodology
 
 ![Full Methodology Process](images/full_methodology_process.png)
+
+---
+
+### CNN Blocks Architecture
+
+![CNN Blocks](images/cnn_blocks.png)
 
 ---
 
