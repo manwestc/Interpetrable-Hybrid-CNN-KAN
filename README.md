@@ -42,6 +42,8 @@ This repository has a dedicated space on **[DeepWiki]([https://deepwiki.com/oeg-
 
 **TINTOlib** is a Python library that transforms **tidy tabular data** into grayscale **synthetic images**, making it possible to apply deep learning models such as CNNs and ViTs to structured data.
 
+---
+
 ### 📺 VideoTutorial Course (English/Spanish)
 
 🎥 Prefer not to register on Udemy or looking for the English version of the course? No worries — you can follow the full course directly on GitHub!
