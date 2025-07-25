@@ -98,7 +98,7 @@ Each dataset is encoded with three image generation methods (IGTD, REFINED, TINT
 Each hybrid model computes a **Global Feature Score (GFS)** to merge relevance signals from symbolic and visual branches.
 
 <div align="center">
-<img src="imgs/HyNN.png" alt="Hybrid Neural Network with CNN and KAN" width="350"/>
+<img src="imgs/HyNN.png" alt="Hybrid Neural Network with CNN and KAN" width="550"/>
 </div>
 
 ---
