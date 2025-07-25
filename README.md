@@ -21,6 +21,7 @@ This repository has a dedicated space on **[DeepWiki]([https://deepwiki.com/oeg-
   </a>
 </p>
 
+---
 
 ## 🧪 Structure of This Repository
 
@@ -132,7 +133,7 @@ python Experiments/train_puma_hybrid.py
 
 ## 🧠 Authors
 
-- **Giovanny Mondragon-Ruiz()**
+- **Giovanny Mondragon-Ruiz**
 - **Jiayun Liu**
 - **[Manuel Castillo-Cara](https://github.com/manwestc)**
 - **Raúl García-Castro**
