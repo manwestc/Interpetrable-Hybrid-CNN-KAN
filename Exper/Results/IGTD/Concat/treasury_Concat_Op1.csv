@@ -1,0 +1,280 @@
+kan_neurons,kan_grid,lamb,cnn_bottleneck_dim,ACC,Best_Epoch,KAN_Relevance,CNN_Relevance,KAN M.R.F.,CNN M.R.F.
+5,4,0.0001,1,0.248381838,37,0.072797984,0.927202046,"30Y-CMortgageRate: 0.23
+checkableDeposits: 0.20
+5Y-CMaturityRate: 0.19","Ex1: 0.22
+tradeCurrencies: 0.10
+savingsDeposits: 0.06"
+5,4,0.0001,1,0.248381838,37,0.072797984,0.927202046,"30Y-CMortgageRate: 0.23
+checkableDeposits: 0.20
+5Y-CMaturityRate: 0.19","Ex1: 0.22
+tradeCurrencies: 0.10
+savingsDeposits: 0.06"
+5,4,0.0001,2,0.191973358,13,0.953529,0.046471007,"moneyStock: 0.33
+tradeCurrencies: 0.29
+bankCredit: 0.29","tradeCurrencies: 0.38
+moneyStock: 0.30
+federalFunds: 0.25"
+5,4,0.0001,2,0.191973358,13,0.953529,0.046471007,"moneyStock: 0.33
+tradeCurrencies: 0.29
+bankCredit: 0.29","tradeCurrencies: 0.38
+moneyStock: 0.30
+federalFunds: 0.25"
+5,4,0.0001,3,0.229187697,21,0.128470212,0.871529758,"checkableDeposits: 0.27
+tradeCurrencies: 0.26
+savingsDeposits: 0.20","3Y-CMaturityRate: 0.22
+loansLeases: 0.21
+demandDeposits: 0.06"
+5,4,0.0001,3,0.23944582,23,0.08156202,0.918438017,"tradeCurrencies: 0.28
+checkableDeposits: 0.27
+savingsDeposits: 0.26","tradeCurrencies: 0.10
+savingsDeposits: 0.01
+moneyStock: 0.01"
+5,4,0.0001,5,0.236933783,37,0.113840878,0.886159062,"federalFunds: 0.36
+tradeCurrencies: 0.30
+30Y-CMortgageRate: 0.29","tradeCurrencies: 0.20
+3Y-CMaturityRate: 0.10
+5Y-CMaturityRate: 0.05"
+5,4,0.0001,5,0.258075476,21,0.142229646,0.857770383,"tradeCurrencies: 0.32
+5Y-CMaturityRate: 0.27
+federalFunds: 0.26","3Y-CMaturityRate: 0.10
+1Y-CMaturityRate: 0.07
+tradeCurrencies: 0.06"
+5,4,0.0001,8,0.234158412,32,0.072005227,0.927994788,"federalFunds: 0.36
+1Y-CMaturityRate: 0.25
+demandDeposits: 0.25","loansLeases: 0.05
+tradeCurrencies: 0.04
+3M-Rate-SecondaryMarket: 0.02"
+5,4,0.0001,8,0.236941591,22,0.044334069,0.955665886,"tradeCurrencies: 0.35
+federalFunds: 0.30
+checkableDeposits: 0.30","loansLeases: 0.16
+tradeCurrencies: 0.05
+savingsDeposits: 0.03"
+5,4,0.0001,8,0.223038048,38,0.04340481,0.956595242,"savingsDeposits: 0.37
+loansLeases: 0.31
+tradeCurrencies: 0.30","30Y-CMortgageRate: 0.40
+3M-Rate-AuctionAverage: 0.39
+1Y-CMaturityRate: 0.36"
+5,4,0.0001,10,0.228958189,39,0.04219868,0.957801282,"checkableDeposits: 0.29
+30Y-CMortgageRate: 0.27
+tradeCurrencies: 0.25","3M-Rate-SecondaryMarket: 0.49
+currency: 0.47
+checkableDeposits: 0.34"
+5,4,0.0001,15,0.231343642,34,0.04359832,0.956401646,"tradeCurrencies: 0.44
+savingsDeposits: 0.39
+checkableDeposits: 0.36","checkableDeposits: 0.26
+currency: 0.24
+3M-Rate-SecondaryMarket: 0.21"
+5,4,0.0001,15,0.231343642,34,0.04359832,0.956401646,"tradeCurrencies: 0.44
+savingsDeposits: 0.39
+checkableDeposits: 0.36","checkableDeposits: 0.26
+currency: 0.24
+3M-Rate-SecondaryMarket: 0.21"
+5,4,0.0001,18,0.241638571,25,0.021263644,0.978736401,"loansLeases: 0.45
+tradeCurrencies: 0.40
+savingsDeposits: 0.35","3M-Rate-SecondaryMarket: 0.11
+loansLeases: 0.06
+1Y-CMaturityRate: 0.01"
+6,5,1.00E-05,1,0.212212026,18,0.982352495,0.017647536,"moneyStock: 0.28
+30Y-CMortgageRate: 0.26
+checkableDeposits: 0.21","moneyStock: 0.47
+3M-Rate-AuctionAverage: 0.43
+30Y-CMortgageRate: 0.42"
+6,5,1.00E-05,1,0.204523355,18,0.986203849,0.013796146,"30Y-CMortgageRate: 0.29
+moneyStock: 0.27
+bankCredit: 0.21","3M-Rate-SecondaryMarket: 0.28
+loansLeases: 0.26
+moneyStock: 0.18"
+6,5,1.00E-05,2,0.194991827,17,0.318086088,0.681913853,"checkableDeposits: 0.17
+3Y-CMaturityRate: 0.12
+tradeCurrencies: 0.11","loansLeases: 0.09
+savingsDeposits: 0.02
+checkableDeposits: 0.01"
+6,5,1.00E-05,2,0.245739877,45,0.696548283,0.303451747,"checkableDeposits: 0.17
+tradeCurrencies: 0.13
+moneyStock: 0.12","loansLeases: 0.21
+savingsDeposits: 0.05
+demandDeposits: 0.00"
+6,5,1.00E-05,3,0.207437217,35,0.130053163,0.869946837,"currency: 0.15
+loansLeases: 0.15
+savingsDeposits: 0.13","loansLeases: 0.16
+demandDeposits: 0.09
+3Y-CMaturityRate: 0.08"
+6,5,1.00E-05,3,0.245668486,32,0.101532102,0.898467839,"loansLeases: 0.17
+currency: 0.13
+savingsDeposits: 0.11","loansLeases: 0.45
+savingsDeposits: 0.08
+demandDeposits: 0.02"
+6,5,1.00E-05,6,0.228279188,24,0.054962173,0.945037782,"checkableDeposits: 0.29
+tradeCurrencies: 0.20
+30Y-CMortgageRate: 0.15","loansLeases: 0.23
+savingsDeposits: 0.05
+demandDeposits: 0.01"
+6,5,1.00E-05,6,0.227966204,36,0.079717547,0.920282483,"checkableDeposits: 0.32
+tradeCurrencies: 0.22
+30Y-CMortgageRate: 0.18","loansLeases: 0.26
+savingsDeposits: 0.08
+demandDeposits: 0.01"
+6,5,1.00E-05,9,0.242058024,30,0.123239003,0.876761019,"federalFunds: 0.45
+tradeCurrencies: 0.43
+checkableDeposits: 0.42","loansLeases: 0.18
+savingsDeposits: 0.05
+demandDeposits: 0.01"
+6,5,1.00E-05,9,0.227151513,24,0.121636882,0.878363132,"checkableDeposits: 0.44
+tradeCurrencies: 0.34
+currency: 0.32","loansLeases: 0.25
+savingsDeposits: 0.10
+Ex1: 0.02"
+6,5,1.00E-05,12,0.22875759,36,0.133177578,0.866822422,"tradeCurrencies: 0.18
+checkableDeposits: 0.17
+3M-Rate-SecondaryMarket: 0.16","loansLeases: 0.08
+tradeCurrencies: 0.05
+demandDeposits: 0.00"
+6,5,1.00E-05,12,0.19882299,37,0.206782237,0.793217778,"loansLeases: 0.21
+federalFunds: 0.18
+3M-Rate-SecondaryMarket: 0.17","loansLeases: 0.06
+savingsDeposits: 0.02
+1Y-CMaturityRate: 0.00"
+6,5,1.00E-05,15,0.219576731,34,0.12357223,0.87642777,"checkableDeposits: 0.27
+tradeCurrencies: 0.21
+loansLeases: 0.19","loansLeases: 0.19
+savingsDeposits: 0.01
+demandDeposits: 0.01"
+6,5,1.00E-05,15,0.229752362,35,0.077097744,0.922902286,"checkableDeposits: 0.24
+3Y-CMaturityRate: 0.16
+moneyStock: 0.16","loansLeases: 0.20
+demandDeposits: 0.12
+3Y-CMaturityRate: 0.10"
+1,5,1.00E-05,1,0.261390507,19,0.038297605,0.961702406,"5Y-CMaturityRate: 0.47
+moneyStock: 0.38
+1Y-CMaturityRate: 0.36","loansLeases: 0.25
+savingsDeposits: 0.11
+tradeCurrencies: 0.08"
+1,5,1.00E-05,1,0.221574292,29,0.042450916,0.957549095,"1Y-CMaturityRate: 0.41
+federalFunds: 0.35
+5Y-CMaturityRate: 0.28","1Y-CMaturityRate: 0.18
+3M-Rate-SecondaryMarket: 0.02
+Ex1: 0.01"
+1,5,1.00E-05,2,0.262333125,38,0.168097898,0.831902087,"demandDeposits: 0.64
+tradeCurrencies: 0.54
+checkableDeposits: 0.42","loansLeases: 0.32
+tradeCurrencies: 0.13
+savingsDeposits: 0.11"
+1,5,1.00E-05,2,0.243953988,27,0.0397138,0.96028626,"loansLeases: 2.32
+checkableDeposits: 2.15
+currency: 1.60","checkableDeposits: 0.36
+3M-Rate-SecondaryMarket: 0.36
+currency: 0.06"
+1,5,1.00E-05,3,0.211847648,37,0.067328364,0.932671666,"3M-Rate-SecondaryMarket: 0.13
+moneyStock: 0.13
+3Y-CMaturityRate: 0.12","1Y-CMaturityRate: 0.13
+3Y-CMaturityRate: 0.03
+demandDeposits: 0.02"
+1,5,1.00E-05,3,0.211847648,37,0.067328364,0.932671666,"3M-Rate-SecondaryMarket: 0.13
+moneyStock: 0.13
+3Y-CMaturityRate: 0.12","1Y-CMaturityRate: 0.13
+3Y-CMaturityRate: 0.03
+demandDeposits: 0.02"
+1,5,1.00E-05,4,0.211847648,37,0.067328364,0.932671666,"3M-Rate-SecondaryMarket: 0.13
+moneyStock: 0.13
+3Y-CMaturityRate: 0.12","1Y-CMaturityRate: 0.13
+3Y-CMaturityRate: 0.03
+demandDeposits: 0.02"
+1,5,1.00E-05,4,0.211847648,37,0.067328364,0.932671666,"3M-Rate-SecondaryMarket: 0.13
+moneyStock: 0.13
+3Y-CMaturityRate: 0.12","1Y-CMaturityRate: 0.13
+3Y-CMaturityRate: 0.03
+demandDeposits: 0.02"
+1,5,1.00E-05,5,0.209893227,47,0.051872306,0.948127747,"currency: 0.22
+bankCredit: 0.18
+loansLeases: 0.14","Ex1: 0.18
+loansLeases: 0.14
+savingsDeposits: 0.09"
+1,5,1.00E-05,5,0.209893227,47,0.051872306,0.948127747,"currency: 0.22
+bankCredit: 0.18
+loansLeases: 0.14","Ex1: 0.18
+loansLeases: 0.14
+savingsDeposits: 0.09"
+1,5,1.00E-05,6,0.229207665,30,0.029840553,0.970159471,"5Y-CMaturityRate: 0.39
+3M-Rate-AuctionAverage: 0.38
+currency: 0.26","loansLeases: 0.10
+3M-Rate-SecondaryMarket: 0.10
+currency: 0.03"
+1,5,1.00E-05,6,0.22837992,25,0.015605112,0.984394968,"5Y-CMaturityRate: 0.40
+3M-Rate-AuctionAverage: 0.34
+currency: 0.23","loansLeases: 0.35
+3M-Rate-SecondaryMarket: 0.21
+savingsDeposits: 0.11"
+6,7,1.00E-05,1,0.249192804,57,0.80655843,0.193441555,"loansLeases: 0.14
+checkableDeposits: 0.12
+federalFunds: 0.12","tradeCurrencies: 0.37
+loansLeases: 0.24
+savingsDeposits: 0.12"
+6,7,1.00E-05,1,0.252243996,48,0.822894156,0.177105814,"loansLeases: 0.14
+moneyStock: 0.13
+federalFunds: 0.13","tradeCurrencies: 0.29
+loansLeases: 0.12
+savingsDeposits: 0.08"
+6,7,1.00E-05,1,0.236996427,78,0.709895492,0.290104479,"loansLeases: 0.16
+savingsDeposits: 0.12
+checkableDeposits: 0.12","tradeCurrencies: 0.45
+5Y-CMaturityRate: 0.27
+bankCredit: 0.27"
+6,7,1.00E-05,2,0.210217088,65,0.918340325,0.08165966,"bankCredit: 0.37
+checkableDeposits: 0.34
+5Y-CMaturityRate: 0.32","tradeCurrencies: 0.25
+moneyStock: 0.19
+loansLeases: 0.16"
+6,7,1.00E-05,2,0.236828402,47,0.94239676,0.057603259,"bankCredit: 0.36
+checkableDeposits: 0.30
+5Y-CMaturityRate: 0.28","tradeCurrencies: 0.26
+moneyStock: 0.24
+3M-Rate-AuctionAverage: 0.20"
+6,7,1.00E-05,3,0.226232991,28,0.137946606,0.862053394,"federalFunds: 0.40
+checkableDeposits: 0.33
+3M-Rate-SecondaryMarket: 0.28","loansLeases: 0.25
+demandDeposits: 0.09
+savingsDeposits: 0.07"
+6,7,1.00E-05,3,0.224031985,27,0.155173719,0.844826281,"federalFunds: 0.51
+checkableDeposits: 0.39
+3M-Rate-SecondaryMarket: 0.30","loansLeases: 0.25
+savingsDeposits: 0.09
+demandDeposits: 0.04"
+6,7,1.00E-05,6,0.236736342,44,0.143955171,0.856044888,"checkableDeposits: 0.25
+3M-Rate-AuctionAverage: 0.20
+bankCredit: 0.20","3M-Rate-SecondaryMarket: 0.43
+loansLeases: 0.21
+3M-Rate-AuctionAverage: 0.10"
+6,7,1.00E-05,6,0.236736342,44,0.143955171,0.856044888,"checkableDeposits: 0.25
+3M-Rate-AuctionAverage: 0.20
+bankCredit: 0.20","3M-Rate-SecondaryMarket: 0.43
+loansLeases: 0.21
+3M-Rate-AuctionAverage: 0.10"
+6,7,1.00E-05,9,0.262649268,66,0.214255258,0.785744727,"federalFunds: 0.36
+tradeCurrencies: 0.26
+3M-Rate-SecondaryMarket: 0.25","loansLeases: 0.22
+checkableDeposits: 0.04
+savingsDeposits: 0.04"
+6,7,1.00E-05,9,0.262649268,66,0.214255258,0.785744727,"federalFunds: 0.36
+tradeCurrencies: 0.26
+3M-Rate-SecondaryMarket: 0.25","loansLeases: 0.22
+checkableDeposits: 0.04
+savingsDeposits: 0.04"
+6,7,1.00E-05,12,0.220028281,39,0.112987064,0.887012899,"loansLeases: 0.34
+checkableDeposits: 0.30
+bankCredit: 0.29","checkableDeposits: 0.24
+3M-Rate-SecondaryMarket: 0.20
+currency: 0.13"
+6,7,1.00E-05,12,0.220028281,39,0.112987064,0.887012899,"loansLeases: 0.34
+checkableDeposits: 0.30
+bankCredit: 0.29","checkableDeposits: 0.24
+3M-Rate-SecondaryMarket: 0.20
+currency: 0.13"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
